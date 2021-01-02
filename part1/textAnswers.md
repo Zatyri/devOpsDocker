@@ -38,7 +38,7 @@ You found the correct password. Secret message is:
 Secret message is:
 "Docker is easy"
 
-# Exercise 1.4
+# Exercise 1.5
 ```
 docker run -d -it --name test ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
 docker exec -it test bash
@@ -48,3 +48,16 @@ curl helsinki.fi
 
 ```
 
+# Exercise 1.6
+Dockerfile
+```
+FROM devopsdockeruh/overwrite_cmd_exercise
+CMD ["-c"]
+
+```
+Commands:
+```
+docker build -t docker-clock .
+docker run docker-clock
+
+```
