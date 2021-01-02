@@ -38,4 +38,13 @@ You found the correct password. Secret message is:
 Secret message is:
 "Docker is easy"
 
+# Exercise 1.4
+```
+docker run -d -it --name test ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+docker exec -it test bash
+apt update
+apt install curl
+curl helsinki.fi
+
+```
 
