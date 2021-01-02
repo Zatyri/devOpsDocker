@@ -34,3 +34,8 @@ You found the correct password. Secret message is:
 "This is the secret message"
 
 ```
+
+# Exercise 1.4
+Secret message is:
+"Docker is easy"
+
