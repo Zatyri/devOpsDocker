@@ -7,3 +7,12 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS       
 63eff83478bd   nginx     "/docker-entrypoint.…"   51 seconds ago   Exited (0) 21 seconds ago             recursing_poincare
 
 ```
+
+# Exercise 1.2
+```
+oskar@dev-cpu:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+oskar@dev-cpu:~$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+
+```
