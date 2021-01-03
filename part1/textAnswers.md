@@ -68,3 +68,9 @@ docker run docker-clock
 oskar@dev-cpu:~/docker$ touch logs.txt
 oskar@dev-cpu:~/docker$ docker run -v "$(pwd)/logs.txt:/usr/app/logs.txt" devopsdockeruh/first_volume_exercise 
 ```
+
+# Exercise 1.9
+
+```
+docker run -p 80:80 devopsdockeruh/ports_exercise
+```
