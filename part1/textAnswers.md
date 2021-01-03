@@ -61,3 +61,10 @@ docker build -t docker-clock .
 docker run docker-clock
 
 ```
+
+# Exercise 1.8
+
+```
+oskar@dev-cpu:~/docker$ touch logs.txt
+oskar@dev-cpu:~/docker$ docker run -v "$(pwd)/logs.txt:/usr/app/logs.txt" devopsdockeruh/first_volume_exercise 
+```
