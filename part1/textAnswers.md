@@ -77,3 +77,7 @@ docker run -p 80:80 devopsdockeruh/ports_exercise
 
 # Exercise 1.15
 https://hub.docker.com/repository/docker/zatyri/unicafe-docker-example
+
+
+# Exercise 1.16
+https://docker-example1.herokuapp.com/
