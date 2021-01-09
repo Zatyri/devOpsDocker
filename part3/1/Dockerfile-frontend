@@ -10,4 +10,4 @@ RUN apt-get update && apt-get install -y curl && \
     apt-get clean    
 
 EXPOSE 5000
-CMD ["npm" "start"]
+CMD ["npm", "start"]
