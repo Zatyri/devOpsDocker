@@ -1,0 +1,7 @@
+FROM node
+COPY . .
+RUN npm install && npm cache clear --force && \
+    rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+EXPOSE 8000
+CMD ["npm","start"]
