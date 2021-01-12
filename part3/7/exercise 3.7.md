@@ -8,3 +8,6 @@ docker build -t unicafe .
 docker run -p3000:3000 unicafe
 
 ```
+Òriginal image size 1.13GB 
+
+New image size 118MB
