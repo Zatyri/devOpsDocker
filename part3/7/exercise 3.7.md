@@ -1,5 +1,5 @@
 # Exercise 3.7
--
+
 Original Dockerfile created in exercise in part 1
 -
 ## Run
